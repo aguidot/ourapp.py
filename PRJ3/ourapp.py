@@ -25,8 +25,8 @@ with st.form("my_form"):
         
         st.form_submit_button()
         
-        if submitted:
-                st.write("Market Account", mkt_account_input, "Private Key", private_key_input, "Account", options, "Fee Agreement", fee_agreement)
+        #if submitted:
+                #st.write("Market Account", mkt_account_input, "Private Key", private_key_input, "Account", options, "Fee Agreement", fee_agreement)
 
 st.write("Outside form")
 
