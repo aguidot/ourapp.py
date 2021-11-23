@@ -23,6 +23,8 @@ with st.form("my_form"):
         fee_agreement = st.selectbox("Would you like to proceed with transaction?",
         ["Yes", "No"])
         
+        st.form_submit_button()
+        
         if submitted:
                 st.write("Market Account", mkt_account_input, "Private Key", private_key_input, "Account", options, "Fee Agreement", fee_agreement)
 
