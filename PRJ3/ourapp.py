@@ -26,5 +26,4 @@ fee_agreement = st.selectbox("Would you like to proceed with transaction?",
 path = st.text_input('CSV file path')
 if path:
         df = pd.read_csv(path)
- return df
 
