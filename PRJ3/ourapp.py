@@ -16,7 +16,7 @@ with st.form("my_form"):
         private_key_input = st.text_input("Enter your Private Key:", type="password")
         
         options = st.selectbox("Which account would you like to transfer from?",
-        ["Market Account", "Eth Account"])
+        ["Market Account", "Ethereum Account"])
         
         st.markdown("The fee associated with this transaction is 21,000 GWEI.")
         
