@@ -30,3 +30,4 @@ with st.form("my_form"):
 
         st.write("Outside form")
 
+form.form_submit_button("Submit")
