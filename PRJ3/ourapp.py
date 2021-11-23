@@ -26,7 +26,7 @@ with st.form("my_form"):
         submitted = st.form_submit_button("Submit")
         
         if submitted:
-                st.write("Market Account ", mkt_account_input,"  ", "Account ", options, "  ", "Fee Agreement ", fee_agreement)
+                st.write("Market Account: ", mkt_account_input," | ", "Account: ", options, " | ", "Fee Agreement: ", fee_agreement)
 
 
 form.form_submit_button("Submit")
