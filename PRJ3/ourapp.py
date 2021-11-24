@@ -1,3 +1,5 @@
+#our group assignment for cloud sending
+
 from web3 import Web3, middleware
 from web3.exceptions import ContractLogicError
 from web3.middleware import geth_poa_middleware
