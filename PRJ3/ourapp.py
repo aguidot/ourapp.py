@@ -21,7 +21,7 @@ with st.form("my_form"):
         st.markdown("The fee associated with this transaction is 21,000 GWEI.")
         
         fee_agreement = st.selectbox("Would you like to proceed with transaction?",
-        ["Yes", "No"])
+        ["Yes", "LOL You thought there was another option?"])
         
         submitted = st.form_submit_button("Submit")
         
